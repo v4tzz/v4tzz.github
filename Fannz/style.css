@@ -1,0 +1,45 @@
+* {
+    font-family: "poppins",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #ffffff;
+    font-size: 30px;
+    font-style: italic;
+}
+.navbar ul {
+    flex: 1;
+    text-align:right;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 8px 12px;
+    list-style: none;
+}
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    color: #ffffff;
+}
+.navbar ul li a:hover {
+    color: #ffffff;
+}
+.img1 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+  
+}
+.img2 {
+    display: flex;
+    justify-content: left;
+    align-items: right;
+  
+}
